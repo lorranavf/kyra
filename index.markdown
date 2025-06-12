@@ -35,6 +35,6 @@ FLORES, Lorrana Verdi et al.. TITLE. In: X-Meeting presentations. Anais...João 
 
 {% for post in site.posts %}
 
-  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <h2>{{ post.title }}</h2>
   <p>{{ post.excerpt }}</p>
 {% endfor %}
