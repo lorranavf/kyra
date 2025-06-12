@@ -32,3 +32,9 @@ FLORES, Lorrana Verdi et al.. TITLE. In: X-Meeting presentations. Anais...João 
 <p align="justify">
 FLORES, Lorrana Verdi et al.. TITLE. In: X-Meeting presentations. Anais...João Pessoa(PB) Local, 2025. Available in: <a href="" target="_blank">xmeeting-2025-number</a>. Access in: 00/00/2025.
 </p>
+
+{% for post in site.posts %}
+
+  <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
+  <p>{{ post.excerpt }}</p>
+{% endfor %}
